@@ -1,0 +1,4 @@
+Nisam znao što da točno komentiram jer je većinu koda automatski stvorio Visual Studio.
+Svaka forma ima svoje jednostavne metode, vjerujem da će te se u njima snaći.
+Kod još nije funkcionalan jer imam problema sa timerima i RNG-om.
+Bojan
