@@ -19,7 +19,7 @@ namespace ReflexorGUI
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //this.Hide();
+            //na pritisak gumba otvara se novi prozor
             Game1 f2 = new Game1();
             f2.ShowDialog();
         }
