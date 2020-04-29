@@ -9,3 +9,4 @@ C:\Users\Bojan\Desktop\C#\ReflexorGUI\ReflexorGUI\obj\Debug\ReflexorGUI.exe
 C:\Users\Bojan\Desktop\C#\ReflexorGUI\ReflexorGUI\obj\Debug\ReflexorGUI.pdb
 C:\Users\Bojan\Desktop\C#\ReflexorGUI\ReflexorGUI\obj\Debug\ReflexorGUI.mainForm.resources
 C:\Users\Bojan\Desktop\C#\ReflexorGUI\ReflexorGUI\obj\Debug\ReflexorGUI.Game1.resources
+C:\Users\Bojan\Desktop\C#\ReflexorGUI\ReflexorGUI\obj\Debug\ReflexorGUI.Game2.resources

@@ -31,11 +31,12 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Game1));
             this.button1 = new System.Windows.Forms.Button();
-            this.TimerOdPritiska = new System.Windows.Forms.Timer(this.components);
+            this.Metronom = new System.Windows.Forms.Timer(this.components);
             this.slikaShreka = new System.Windows.Forms.PictureBox();
-            this.TimerOdShreka = new System.Windows.Forms.Timer(this.components);
-            this.ScoreBox = new System.Windows.Forms.TextBox();
             this.PojavljivanjaText = new System.Windows.Forms.Label();
+            this.ScoreBox = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.slikaShreka)).BeginInit();
             this.SuspendLayout();
             // 
@@ -50,10 +51,10 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // TimerOdPritiska
+            // Metronom
             // 
-            this.TimerOdPritiska.Interval = 10;
-            this.TimerOdPritiska.Tick += new System.EventHandler(this.timer1_Tick);
+            this.Metronom.Interval = 10;
+            this.Metronom.Tick += new System.EventHandler(this.Metronom_Tick);
             // 
             // slikaShreka
             // 
@@ -66,35 +67,55 @@
             this.slikaShreka.TabIndex = 1;
             this.slikaShreka.TabStop = false;
             // 
-            // TimerOdShreka
-            // 
-            this.TimerOdShreka.Interval = 10;
-            this.TimerOdShreka.Tick += new System.EventHandler(this.TimerOdShreka_Tick);
-            // 
-            // ScoreBox
-            // 
-            this.ScoreBox.Location = new System.Drawing.Point(347, 64);
-            this.ScoreBox.Name = "ScoreBox";
-            this.ScoreBox.Size = new System.Drawing.Size(107, 20);
-            this.ScoreBox.TabIndex = 2;
-            this.ScoreBox.Text = "0";
-            // 
             // PojavljivanjaText
             // 
             this.PojavljivanjaText.AutoSize = true;
+            this.PojavljivanjaText.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
             this.PojavljivanjaText.Location = new System.Drawing.Point(650, 212);
             this.PojavljivanjaText.Name = "PojavljivanjaText";
-            this.PojavljivanjaText.Size = new System.Drawing.Size(35, 13);
+            this.PojavljivanjaText.Size = new System.Drawing.Size(64, 25);
             this.PojavljivanjaText.TabIndex = 3;
             this.PojavljivanjaText.Text = "label1";
+            // 
+            // ScoreBox
+            // 
+            this.ScoreBox.AutoSize = true;
+            this.ScoreBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
+            this.ScoreBox.Location = new System.Drawing.Point(451, 53);
+            this.ScoreBox.Name = "ScoreBox";
+            this.ScoreBox.Size = new System.Drawing.Size(23, 25);
+            this.ScoreBox.TabIndex = 4;
+            this.ScoreBox.Text = "0";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
+            this.label1.Location = new System.Drawing.Point(245, 53);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(200, 25);
+            this.label1.TabIndex = 5;
+            this.label1.Text = "Bodovi (milisekunde):";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
+            this.label2.Location = new System.Drawing.Point(584, 174);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(194, 25);
+            this.label2.TabIndex = 6;
+            this.label2.Text = "Pojavljivanja Shreka:";
             // 
             // Game1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.PojavljivanjaText);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.ScoreBox);
+            this.Controls.Add(this.PojavljivanjaText);
             this.Controls.Add(this.slikaShreka);
             this.Controls.Add(this.button1);
             this.Name = "Game1";
@@ -109,10 +130,11 @@
         #endregion
 
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Timer TimerOdPritiska;
+        private System.Windows.Forms.Timer Metronom;
         private System.Windows.Forms.PictureBox slikaShreka;
-        private System.Windows.Forms.Timer TimerOdShreka;
-        private System.Windows.Forms.TextBox ScoreBox;
         private System.Windows.Forms.Label PojavljivanjaText;
+        private System.Windows.Forms.Label ScoreBox;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
     }
 }

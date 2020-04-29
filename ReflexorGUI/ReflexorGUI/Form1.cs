@@ -23,5 +23,11 @@ namespace ReflexorGUI
             Game1 f2 = new Game1();
             f2.ShowDialog();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Game2 f3 = new Game2();
+            f3.ShowDialog();
+        }
     }
 }
