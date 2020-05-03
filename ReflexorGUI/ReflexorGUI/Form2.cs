@@ -29,7 +29,7 @@ namespace ReflexorGUI
             TickoviOdPritiska = 0;
             PojavljivanjaShreka = 0;
             poeni = 0;
-            button1.Text = "REDI";
+            button1.Text = "KRENI";
             slikaShreka.Hide();
             ShrekJeVidljiv = false;
             PrviKlik = false;
@@ -39,6 +39,7 @@ namespace ReflexorGUI
         }
         private void button1_Click(object sender, EventArgs e)
         {
+            
             if (!ShrekJeVidljiv && PrviKlik)
             {
                 //kažnjavamo klikove dok Shreka nema sa jednom kaznenom sekundom

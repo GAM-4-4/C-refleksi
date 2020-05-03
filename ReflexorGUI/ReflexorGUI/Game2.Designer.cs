@@ -39,7 +39,7 @@
             // SlikaMete
             // 
             this.SlikaMete.Image = ((System.Drawing.Image)(resources.GetObject("SlikaMete.Image")));
-            this.SlikaMete.Location = new System.Drawing.Point(420, 260);
+            this.SlikaMete.Location = new System.Drawing.Point(419, 244);
             this.SlikaMete.Name = "SlikaMete";
             this.SlikaMete.Size = new System.Drawing.Size(40, 40);
             this.SlikaMete.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -49,18 +49,20 @@
             // 
             // label1
             // 
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
-            this.label1.Location = new System.Drawing.Point(274, 203);
+            this.label1.Font = new System.Drawing.Font("Rockwell", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Maroon;
+            this.label1.Location = new System.Drawing.Point(275, 152);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(347, 29);
+            this.label1.Size = new System.Drawing.Size(347, 37);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Klikni na metu 50 puta što brže možeš ";
+            this.label1.Text = "Klikni na metu 50 puta što brže možeš! ";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label2
             // 
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
-            this.label2.Location = new System.Drawing.Point(274, 319);
+            this.label2.Font = new System.Drawing.Font("Rockwell", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.Maroon;
+            this.label2.Location = new System.Drawing.Point(275, 326);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(342, 40);
             this.label2.TabIndex = 2;
@@ -69,10 +71,11 @@
             // 
             // label3
             // 
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
-            this.label3.Location = new System.Drawing.Point(279, 359);
+            this.label3.Font = new System.Drawing.Font("Rockwell", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.Maroon;
+            this.label3.Location = new System.Drawing.Point(275, 384);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(337, 29);
+            this.label3.Size = new System.Drawing.Size(342, 34);
             this.label3.TabIndex = 3;
             this.label3.Text = "Igra počinje prvim klikom na metu";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -81,6 +84,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.CausesValidation = false;
             this.ClientSize = new System.Drawing.Size(884, 561);
             this.Controls.Add(this.label3);

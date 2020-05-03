@@ -42,12 +42,12 @@
             // 
             // button1
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
-            this.button1.Location = new System.Drawing.Point(306, 322);
+            this.button1.Font = new System.Drawing.Font("Castellar", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(123, 328);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(178, 73);
+            this.button1.Size = new System.Drawing.Size(575, 73);
             this.button1.TabIndex = 0;
-            this.button1.Text = "REDI";
+            this.button1.Text = "KRENI";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -62,7 +62,7 @@
             this.slikaShreka.Location = new System.Drawing.Point(206, 90);
             this.slikaShreka.MinimumSize = new System.Drawing.Size(20, 50);
             this.slikaShreka.Name = "slikaShreka";
-            this.slikaShreka.Size = new System.Drawing.Size(362, 198);
+            this.slikaShreka.Size = new System.Drawing.Size(358, 213);
             this.slikaShreka.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.slikaShreka.TabIndex = 1;
             this.slikaShreka.TabStop = false;
@@ -81,7 +81,7 @@
             // 
             this.ScoreBox.AutoSize = true;
             this.ScoreBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
-            this.ScoreBox.Location = new System.Drawing.Point(451, 53);
+            this.ScoreBox.Location = new System.Drawing.Point(482, 48);
             this.ScoreBox.Name = "ScoreBox";
             this.ScoreBox.Size = new System.Drawing.Size(23, 25);
             this.ScoreBox.TabIndex = 4;
@@ -90,20 +90,20 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
+            this.label1.Font = new System.Drawing.Font("Castellar", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(245, 53);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(200, 25);
+            this.label1.Size = new System.Drawing.Size(231, 19);
             this.label1.TabIndex = 5;
-            this.label1.Text = "Bodovi (milisekunde):";
+            this.label1.Text = "Bodovi ( milisekunde ):";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
-            this.label2.Location = new System.Drawing.Point(584, 174);
+            this.label2.Font = new System.Drawing.Font("Castellar", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(570, 176);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(194, 25);
+            this.label2.Size = new System.Drawing.Size(218, 18);
             this.label2.TabIndex = 6;
             this.label2.Text = "Pojavljivanja Shreka:";
             // 
@@ -111,6 +111,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
